@@ -8,3 +8,5 @@ def sort_bubble(arr):
 
 from random import randint
 list = [randint(1, 111) for i in range(10)]
+
+print(*sort_bubble(list))
