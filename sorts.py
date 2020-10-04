@@ -4,3 +4,7 @@ def sort_bubble(arr):
         for j in range(0, n-i-1): 
             if arr[j] > arr[j+1] : 
                 arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
+
+from random import randint
+list = [randint(1, 111) for i in range(10)]
