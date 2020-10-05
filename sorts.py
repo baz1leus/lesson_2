@@ -1,3 +1,13 @@
+def Sort(List):
+  
+  List.sort()
+  
+  return(List)
+
+List = [1, 0, 2]
+
+print(Sort(List))
+
 def sort_bubble(arr):
     n = len(arr)
     for i in range(n-1): 
